@@ -1,0 +1,32 @@
+/*Style for template*/
+body {
+    margin: 0;
+    background-color: rgb(61, 61, 61);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: crimson;
+    border: 8px groove rgb(150, 9, 38);
+    text-align: center;
+    flex-wrap: wrap; 
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 64px;
+    z-index: 100;
+}
+
+footer {
+    flex-direction: column;
+    padding: 16px;
+}
