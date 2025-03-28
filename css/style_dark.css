@@ -3,7 +3,7 @@
 /*Style for template*/
 body {
     margin: 0;
-    background-color: #A3C3D9;
+    background-color: #964444;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
 }
@@ -15,7 +15,7 @@ header, footer {
     align-items: center;
     width: 100%;
     height: auto;
-    background-color: #7da7c4;
+    background-color: #823b3b;
     text-align: center;
     flex-wrap: wrap; 
 }
@@ -167,7 +167,7 @@ img {
 .other-header{
     text-align: center;
     color: rgb(61, 61, 61); 
-    background-color: #7da7c4;
+    background-color: #823b3b;
     border-width: 8px;
 }
 
@@ -233,7 +233,7 @@ img {
     width: calc(33.33% - 20px); /* 3 images per row on larger screens */
     max-width: 100%;
     image-rendering: pixelated;
-    border: 4px solid #993955;
+    border: 4px solid #823b3b;
     transition: transform 0.3s ease; /* Smooth scaling on hover */
 }
 
@@ -279,7 +279,7 @@ header a:hover {
 .form-container {
     margin-top: 100px; /* Add margin to push form below the fixed header */
     padding: 20px;
-    background-color: #993955;
+    background-color: #823b3b;
     width: 80%; /* Control form width */
     max-width: 600px; /* Limit the width */
     margin-left: auto;
@@ -304,12 +304,12 @@ form input, form textarea, form select {
 form button {
     padding: 10px 20px;
     background-color: rgb(61, 61, 61);
-    color: crimson;
+    color: #964444;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: darkred;
+    background-color: 823b3b;
 }
