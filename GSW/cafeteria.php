@@ -24,11 +24,8 @@ include_once("parts/theme.php");
         
         <div class="image-grid">
             
-            <img src="/images/g21.png" alt="Annas room">
-            <img src="/images/g22.png" alt="Annas room">
-            <img src="/images/g23.png" alt="Annas room">
-            <img src="/images/g31.png" alt="Annas room">
-            <img src="/images/g32.png" alt="Annas room">
+
+            <a href="qna.php"> Lets see the news</a>
             <img src="/images/g33.png" alt="Annas room">
         </div>
         
