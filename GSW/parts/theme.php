@@ -18,7 +18,7 @@ if(isset($_COOKIE['home'])){
 if(isset($_GET['toggle'])){
     $theme = ($theme === 'style') ? 'style_dark' : 'style';
     $img = ($img ==='images/DarkTheme.svg') ? 'images/LightTheme.svg' : 'images/DarkTheme.svg';
-    $home = ($home === 'images/Logo_dark.png') ? 'images/Logo_light.png' : 'images/Logo_dark.png';
+    $home = ($home === 'images/Logo_light.png') ? 'images/Logo_dark.png' : 'images/Logo_light.png';
     
     setcookie('theme', $theme, time() + (8640 *30),'/');
     setcookie('img', $img, time() + (8640 *30),'/');
