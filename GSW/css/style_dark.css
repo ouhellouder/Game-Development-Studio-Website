@@ -1,0 +1,223 @@
+
+
+/*Style for template*/
+body {
+    margin: 0;
+    background-color: #a44661;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    color: rgb(210, 210, 210);
+}
+
+header, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #91314c;
+    color: rgb(210, 210, 210);
+    text-align: center;
+    flex-wrap: wrap; 
+}
+
+header {
+    color: rgb(210, 210, 210);
+    position: fixed;
+    top: 0;
+    height: 64px;
+    z-index: 100;
+}
+
+footer {
+    color: rgb(210, 210, 210);
+    flex-direction: column;
+    padding: 16px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: rgb(210, 210, 210);
+    font-size: 24px;
+    margin: 0 8px;
+}
+
+a:hover {
+    color: rgb(240, 240, 240);
+    font-size: 28px;
+    transition: 0.5s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header, footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header, footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2px;
+        margin-right: 0;
+    }
+    a {
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    
+}
+
+
+/*Style for others.html*/
+
+.other-header{
+    border: 1px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(61, 61, 61); 
+    background-color: #91314c;
+    color: rgb(210, 210, 210);;
+    border-width: 8px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px; 
+    margin: 20px auto;
+    
+}
+
+.clickable-image {
+    width: auto;
+    height: 100%;
+    cursor: pointer;
+    border: 2px solid #91314c;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+
+.clickable-image:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hidden-content {
+    max-height: 0;
+    width: 40vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #91314c;
+    border: 1px solid #91314c;
+    color: rgb(210, 210, 210);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0 15;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.hidden-content p {
+    margin: 10px 0;
+}
+
+#game_cover{
+    width: auto;
+    height: 100px;
+}
+
+/*Style for games.html*/
+.image-grid {
+    margin-top: 88px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between images */
+    justify-content: center;
+}
+
+.image-grid img {
+    width: calc(33.33% - 20px); /* 3 images per row on larger screens */
+    max-width: 100%;
+    image-rendering: pixelated;
+    border: 4px solid #993955;
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+.image-grid img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.main-page-content{
+    width: 300px; 
+    margin: 20px auto;
+
+
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .image-grid img {
+        width: calc(50% - 20px); /* 2 images per row on medium screens */
+    }
+    .main-page{
+        margin-top: 20%;
+    }
+    .main-page-content{
+        width: 150px; 
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .image-grid {
+        flex-direction: column; /* Stack images into a column */
+        align-items: center; /* Center align the images */
+    }
+
+    .image-grid img {
+        width: 80%; /* Adjust width for better fit */
+    }
+    .main-page{
+        margin-top: 20%;
+    }
+    .main-page-content{
+        width: 150px; 
+        margin: 10px auto;
+    }
+
+}
+
