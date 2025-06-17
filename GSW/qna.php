@@ -18,18 +18,25 @@ include_once("parts/theme.php");
 
 
 <body>
-    
-<?php echo('
 
-<section class="main-page">
-    <img src="'.$home.'" alt="Our logo and name here">
-    
-    <h1>About us</h1>
-    <p> We are Last Minute Game Studio. Our goal is to create and release high quality games. </p>
-    <p> Our team consist of 3 people who each have their unique way to help make games</p>
-</section>
+<?php 
+    require("classes/qnac.php");
+    $qna = new Qna();
+    $data = $qna->Qnagoin();
+  ?>
 
-')?>
+<?php 
+    echo('<section class="main-page"><p>The most common questions and answers:</p></section>');
+    for($i=0;$i<3;$i++){
+        echo('
+            <section class="main-page">
+                <div><p>'.$data[$i]["questions"].'</p></div>
+                <div><p>'.$data[$i]["answers"].'</p></div>
+            </section>
+        ');
+    };
+?>
+<?php echo('')?>
 
 
 </body>

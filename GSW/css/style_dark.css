@@ -1,6 +1,7 @@
 
 
 /*Style for template*/
+
 body {
     margin: 0;
     background-color: #a44661;
@@ -34,6 +35,10 @@ footer {
     color: rgb(210, 210, 210);
     flex-direction: column;
     padding: 16px;
+}
+
+.game-studio-title{
+    font-family: Showcard Gothic;
 }
 
 /* Links */
