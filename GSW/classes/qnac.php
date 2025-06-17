@@ -16,5 +16,8 @@ class Qna extends Database {
         }catch(PDOException $e){
             echo($e->getMessage());
         } 
+        finally{
+            $this->connection=null;
+        }
     }
 }

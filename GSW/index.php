@@ -23,8 +23,10 @@ include_once("parts/theme.php");
 
 <section class="main-page">
     <img src="'.$home.'" alt="Our logo and name here">
+    
+    <h1>About us</h1>
     <p> We are Last Minute Game Studio. Our goal is to create and release high quality games. </p>
-    <p> Our team consist of 1 head programmer, 1 head designer, 1 lore master and 2 3D moddelers</p>
+    <p> Our team consist of 3 people who each have their unique way to help make games</p>
 </section>
 
 ')?>
@@ -32,6 +34,6 @@ include_once("parts/theme.php");
 
 </body>
 
-<?php include_once "parts/footer.html"?>
+<?php include_once "parts/footer.php"?>
 
 </html>
