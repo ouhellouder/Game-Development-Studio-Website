@@ -1,10 +1,12 @@
 
 
 /*Style for template*/
+
+
 body {
     margin: 0;
     background-color: #ccd6eb;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     overflow-x: hidden;
 }
 
@@ -30,6 +32,10 @@ header {
 footer {
     flex-direction: column;
     padding: 16px;
+}
+
+.game-studio-title{
+    font-family: Showcard Gothic;
 }
 
 /* Links */
