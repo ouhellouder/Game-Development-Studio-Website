@@ -9,7 +9,7 @@ for($i = 0; $i < sizeof($sec_text);$i++){
         <img src="'.$sec_text[$i]["cover"].'" alt="logo" class="clickable-image" id="game_cover">
         <div class="hidden-content">
             <p>'.$sec_text[$i]["info"].'</p>
-            <a href = "https:localhost/gsw/parts/render.php?game_id='.$i.'"><img src="'.$sec_text[$i]["main"].'" alt="where pixture?s"></img></a>
+            <a href = "/gsw/parts/render.php?game_id='.$i.'"><img src="'.$sec_text[$i]["main"].'" alt="where pixture?s"></img></a>
         </div>
     </div>
     

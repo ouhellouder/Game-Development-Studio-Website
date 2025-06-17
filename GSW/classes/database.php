@@ -3,7 +3,7 @@
     class Database{
 
         private $host = 'localhost';
-        private $db_name = 'qna';
+        private $db_name = 'gamestudio';
         private $user_name = 'root';
         private $password = '';
 
@@ -14,7 +14,7 @@
             $this->connection = null;
         }
 
-        protected function connect() {
+        public function connect() {
             try {
                 $this->connection = new PDO(
                     "mysql:host=" . $this->host . 

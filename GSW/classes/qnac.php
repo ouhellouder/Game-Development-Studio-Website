@@ -10,7 +10,7 @@ class Qna extends Database {
 
     public function Qnagoin(){
         try{
-            $query =  $this->db->query("SELECT * FROM qna_table");
+            $query =  $this->db->query("SELECT * FROM qna");
             $rows = $query->fetchAll(PDO::FETCH_ASSOC);
             return $rows;
         }catch(PDOException $e){

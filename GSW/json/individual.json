@@ -1,0 +1,62 @@
+[
+    {
+        "name":"Anna",
+        "head":"../images/Anna_main.png",
+        "hearmeout":"Let us tell you something about game Anna",
+        "actualabout":"In this game you are playing as the main protagonist, the girl whose name is Anna. Anna´s goal is to wait for her mom to get back from business trip. Explore house during the day and survive horrors of child imagination during night.",
+        "gameplay":"There are 2 sections in this game. One of them is day during which you explore Anna´s house. The house is 2.5D game drawn using pixel art with point and click mechanic. The night at the other hand is set in first person view in 3D space.",
+        "development":"This game started with different story and as a different game. This one offers better graphics where we paid attention to contrast, color matching and animations to be appealing during the day and scary during the night. We used Krita for pixel art, for 3D models we used Blender and lastly for programming part we used Godot",
+        "1":"../images/Anna_cover.png",
+        "2":"../images/Patkan.png",
+        "3":"../images/Dad.png",
+        "4":"../images/Mom.png"
+    },
+    {
+        "name":"Fritz",
+        "head":"../images/Placeholder_main.svg",
+        "hearmeout":"About",
+        "actualabout":"Game where you experience life cycle together with main protagonist Fritz a child of Tiffany and Ebenezer.",
+        "gameplay":"Game is separated to 3 stages: 1st Agar.io-like game where you play as soul trying to be born as a human, 2nd stage is Pou-like game where you take care of your character, 3rd is 2.5D dont starve style inspired bullet hell where you try to dodge the bullets and lastly 4th where you get play as first person view character trying to solve puzzles and get open THE DOOR.",
+        "development":"This is still concept and will be worked on later but we use all the same programs to make this game as Anna.",
+        "1":"../images/Placeholder_main.svg",
+        "2":"../images/Placeholder_main.svg",
+        "3":"../images/Placeholder_main.svg",
+        "4":"../images/Placeholder_main.svg"
+    },
+    {
+        "name":"Lili",
+        "head":"../images/Placeholder_main.svg",
+        "hearmeout":"Neat wobo-latino gerl:3",
+        "actualabout":"Factorio like game but in space!",
+        "gameplay":"Gameplay is about expanding your ship to get valuable resources as well as more space for your expanding colony. Make sure to not take off your space suit helmet when in space!",
+        "development":"Same programs as before.",
+        "1":"../images/Placeholder_main.svg",
+        "2":"../images/Placeholder_main.svg",
+        "3":"../images/Placeholder_main.svg",
+        "4":"../images/Placeholder_main.svg"
+    },
+    {
+        "name":"SpaceMerks",
+        "head":"../images/SpaceMerks_main.svg",
+        "hearmeout":"Now listen up the one who pays more, gets ma attention!",
+        "actualabout":"You pick a ship memebr you play mission. Travel across the galaxy and meet/kill people depends on who pays more.",
+        "gameplay":"First person shooter with various characters and diferent playstyles pick the one that suits you best",
+        "development":"Same programs as before with a little exception this time we decided to switch to UE5. Those unfamilliar to Unreal Engine 5 it has better support for first person/third person shooters multiplayer games ",
+        "1":"../images/Placeholder_main.svg",
+        "2":"../images/Placeholder_main.svg",
+        "3":"../images/Placeholder_main.svg",
+        "4":"../images/Placeholder_main.svg"
+    },
+    {
+        "name":"RTS",
+        "head":"../images/Placeholder_main.svg",
+        "hearmeout":"On your feet soldiers we are leaving",
+        "actualabout":"This is RTS game in WW2 like world.",
+        "gameplay":"You are commandant, your task is to command your forces and bring victory to your country.",
+        "development":"All the programs mentioned before but not Unreal Engine 5 this time.",
+        "1":"../images/Placeholder_main.svg",
+        "2":"../images/Placeholder_main.svg",
+        "3":"../images/Placeholder_main.svg",
+        "4":"../images/Placeholder_main.svg"
+    }
+]

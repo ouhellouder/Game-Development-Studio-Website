@@ -21,7 +21,7 @@ include_once("parts/theme.php");
     
 <?php echo('
 
-<section class="main-page">
+<section class="main-page" style="margin-top: 64px;">
     <img src="'.$home.'" alt="Our logo and name here">
     
     <h1>About us</h1>

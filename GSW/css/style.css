@@ -2,6 +2,9 @@
 
 /*Style for template*/
 
+hr{
+    border-color: black;
+}
 
 body {
     margin: 0;
@@ -46,6 +49,7 @@ a {
     margin: 0 8px;
 }
 
+
 a:hover {
     color: rgb(91, 91, 91);
     font-size: 28px;
@@ -55,6 +59,18 @@ a:hover {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.forma{
+    display: flex;
+    width: 320px;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 96px;
+    color: #f9f9f9;
+    background-color: grey;
 }
 
 /* Responsive Design */
